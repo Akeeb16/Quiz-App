@@ -25,7 +25,7 @@ saveHighScore= e =>{
 
     localStorage.setItem('highScores',JSON.stringify(highScores));
     console.log(highScores);
-    window.location.assign('appstart.html');
+    window.location.assign('index.html');
 
 };
 
