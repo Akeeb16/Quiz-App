@@ -23,7 +23,7 @@ background-color: white;
     width: 100%;
 }
 .correct{
-    background-color: #28a745;
+    background-color: #28a245;
 }
 .incorrect{
     background-color: #dc3545;
@@ -56,13 +56,14 @@ background-color: white;
 
 /*LOADER*/
 #loader{
-    border: 1.6rem solid white;
-    border-radius: 50%;
+    border: 1.6rem solid pink;
+    border-radius: 60%;
     border-top: 1.6rem solid #56a5eb;
-    width: 12rem;
-    height: 12rem;
-    animation: spin 2s linear infinite;
+    width: 13rem;
+    height: 13rem;
+    animation: spin 3s linear infinite;
 }
+
 @keyframes spin{
  0% {
      transform: rotate(0deg);
